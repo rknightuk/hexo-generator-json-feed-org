@@ -35,7 +35,7 @@ function hexo_generator_json_feed(site) {
 			external_url: post.link,
 			title: post.title,
 			link: post.permalink,
-			summary: post.excerpt ? post.excerpt : post.content.split(' ').splice(0, 25).join(' '),
+			summary: post.excerpt ? post.excerpt : '',
 			image: post.image,
 			banner_image: post.image,
 			content_html: post.content,

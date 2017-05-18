@@ -1,0 +1,30 @@
+{
+  "name": "hexo-generator-json-feed-org",
+  "version": "1.0.4",
+  "description": "Hexo plugin to generate a JSON feed as per the jsonfeed.org specification",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmlewisuk/hexo-generator-json-feed-org.git"
+  },
+  "keywords": [
+    "hexo",
+    "generator",
+    "json",
+    "feed",
+    "rss",
+    "jsonfeed"
+  ],
+  "author": "Robb Lewis <desk@robblewis.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rmlewisuk/hexo-generator-json-feed-org/issues"
+  },
+  "homepage": "https://github.com/rmlewisuk/hexo-generator-json-feed-org#readme",
+  "dependencies": {
+    "hexo-util": "latest"
+  }
+}

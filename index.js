@@ -21,7 +21,7 @@ function hexo_generator_json_feed(site) {
       return post.published;
     });
 
-    if (config.limit) posts = posts.limit(0, config.limit);
+    if (config.limit) posts = posts.limit(config.limit);
 
     siteAuthor = {
 		name: hexo.config.author,

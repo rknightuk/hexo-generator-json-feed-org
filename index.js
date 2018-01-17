@@ -21,7 +21,7 @@ function hexo_generator_json_feed(site) {
       return post.published;
     });
 
-    if (config.limit) posts = posts.splice(0, config.limit);
+    if (config.limit) posts = posts.limit(0, config.limit);
 
     siteAuthor = {
 		name: hexo.config.author,
@@ -49,7 +49,7 @@ function hexo_generator_json_feed(site) {
     });
 
 	feedContent = {
-		version: 1,
+		version: 'https://jsonfeed.org/version/1',
 		title: hexo.config.title,
 		description: hexo.config.description,
 		home_page_url: hexo.config.url,
